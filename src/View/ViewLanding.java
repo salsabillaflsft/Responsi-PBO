@@ -9,8 +9,7 @@ public class ViewLanding extends JFrame{
 
     public JButton btnSee = new JButton("Lihat Planner");
     public JButton btnAdd = new JButton("Tambah Planner");
-    public JButton btnEdit = new JButton("Edit Planner");
-    public JButton btnAdd2 = new JButton("Tambah Kategori");
+    public JButton btnEdit = new JButton("Edit Status Planner");
     public JButton btnOut = new JButton("Log Out");
 
     Color red2 = new Color(210, 55, 58);
@@ -32,7 +31,7 @@ public class ViewLanding extends JFrame{
     ImageIcon img = new ImageIcon("src\\Assets\\landing.jpg");
     JLabel logo = new JLabel(img);
 
-    Font font = new Font("Garamond",Font.ITALIC,35);
+    Font font = new Font("Times New Roman",Font.ITALIC,25);
     Font font2 = new Font ("Garamond", Font.BOLD,  50);
 
     public ViewLanding(){
@@ -67,16 +66,10 @@ public class ViewLanding extends JFrame{
         btnAdd.setForeground(pink);
 
         add(btnEdit);
-        btnEdit.setBounds(850, 330, 250, 60);
+        btnEdit.setBounds(80, 330, 250, 60);
         btnEdit.setFont(font);
         btnEdit.setBackground(blue);
         btnEdit.setForeground(pink);
-
-        add(btnAdd2);
-        btnAdd2.setBounds(80, 330, 250, 60);
-        btnAdd2.setFont(font);
-        btnAdd2.setBackground(blue);
-        btnAdd2.setForeground(pink);
 
         add(btnOut);
         btnOut.setBounds(1050, 50, 110, 50);

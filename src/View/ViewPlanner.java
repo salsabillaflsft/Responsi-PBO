@@ -69,8 +69,8 @@ public class ViewPlanner extends JFrame {
         add(btnHome);
         btnHome.setBounds(30, 55, 75, 50);
         btnHome.setFont(font);
-        btnHome.setBackground(blue);
-        btnHome.setForeground(blue5);
+        btnHome.setBackground(blue5);
+        btnHome.setForeground(blue2);
     }
 
 }
