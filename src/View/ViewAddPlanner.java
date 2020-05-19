@@ -22,21 +22,10 @@ public class ViewAddPlanner extends JFrame {
     public JButton btnAdd = new JButton("Add");
     public JButton btnReset = new JButton("Reset");
 
-    Color red2 = new Color(210, 55, 58);
     Color red = new Color(240, 87, 87);
     Color pink = new Color(255,193,193);
     Color pink2 = new Color(254,149,142);
-    Color green2 = new Color(61, 99, 65);
     Color green = new Color(122, 200, 169);
-    Color green3 = new Color(214, 236, 225);
-    Color yellow = new Color(255, 204, 10);
-    Color orange = new Color(245, 138, 40);
-    Color blue = new Color(80,121,154);
-    Color blue2 = new Color(66,58,100);
-    Color blue3 = new Color(14,36,165);
-    Color blue4 = new Color(66,90,194);
-    Color blue5 = new Color(164,184,234);
-    Color grey = new Color(204,204,204);
 
     ImageIcon img = new ImageIcon("src\\Assets\\time.jpg");
     JLabel logo = new JLabel(img);
@@ -120,8 +109,5 @@ public class ViewAddPlanner extends JFrame {
 
     public Object[] getNamaKolom() {
         return namaKolom;
-    }
-    public void setNamaKolom(Object[] namaKolom) {
-        this.namaKolom = namaKolom;
     }
 }

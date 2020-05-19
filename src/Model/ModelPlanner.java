@@ -174,7 +174,7 @@ public class ModelPlanner {
     }
     public void updatePlanner(String nama, String kategori, String waktu, String status){
         try {
-            String query = "UPDATE `supply` SET `nama` = '"+nama+"',`kategori`='" + kategori + "',`waktu`='" +waktu +"', `status`='" +status +"'WHERE `nama` = '" + nama + "'";
+            String query = "UPDATE `planner` SET `nama` = '"+nama+"',`kategori`='" + kategori + "',`id_hari`='" +waktu +"', `status`='" +status +"'WHERE `nama` = '" + nama + "'";
             statement = JavaDatabase.getConnection().createStatement();
             statement.executeUpdate(query);
             JOptionPane.showMessageDialog(null, "Data Berhasil Diperbarui");

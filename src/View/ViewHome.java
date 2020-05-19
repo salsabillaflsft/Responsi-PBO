@@ -14,17 +14,9 @@ public class ViewHome extends JFrame {
     public JButton btnLogin = new JButton("Log In");
     public JButton btnRegis = new JButton("Register");
 
-
-    Color red2 = new Color(210, 55, 58);
-    Color red = new Color(240, 87, 87);
-    Color green2 = new Color(61, 99, 65);
-    Color green = new Color(122, 200, 169);
     Color green3 = new Color(214, 236, 225);
-    Color yellow = new Color(255, 204, 10);
-    Color orange = new Color(245, 138, 40);
     Color blue = new Color(80,121,154);
     Color blue2 = new Color(66,58,100);
-
 
     ImageIcon img = new ImageIcon("src\\Assets\\home.jpg");
     JLabel logo = new JLabel(img);

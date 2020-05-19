@@ -9,8 +9,6 @@ public class ViewLogout extends JFrame {
     public JButton btnLogin = new JButton("Kembali Login");
 
     Color pink = new Color(255,193,193);
-    Color pink2 = new Color(254,149,142);
-    Color blue = new Color(80,121,154);
     Color blue2 = new Color(66,58,100);
 
     ImageIcon img = new ImageIcon("src\\Assets\\logout.jpg");
