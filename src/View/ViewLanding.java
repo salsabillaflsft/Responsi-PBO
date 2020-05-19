@@ -9,7 +9,7 @@ public class ViewLanding extends JFrame{
 
     public JButton btnSee = new JButton("Lihat Planner");
     public JButton btnAdd = new JButton("Tambah Planner");
-    public JButton btnEdit = new JButton("Edit Status Planner");
+    public JButton btnEdit = new JButton("Edit Planner");
     public JButton btnOut = new JButton("Log Out");
 
     Color red2 = new Color(210, 55, 58);

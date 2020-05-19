@@ -13,7 +13,7 @@ public class ViewPlanner extends JFrame {
     public JTable tabel;
     DefaultTableModel tableModel;
     JScrollPane jScrollPane;
-    public Object[] namaKolom = {"No","Plan","Kategori","Hari","Waktu","Status"};
+    public Object[] namaKolom = {"No","Plan","Category","Day","Time","Status"};
     Color red2 = new Color(210, 55, 58);
     Color red = new Color(240, 87, 87);
     Color pink = new Color(255,193,193);
