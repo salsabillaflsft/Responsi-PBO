@@ -12,106 +12,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ControllerAddPlanner.java">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ControllerAddBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Planner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ControllerEditPlanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Logout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Landing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/MVC_EditPlanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MVC/MVC_AddPlanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/ModelPlanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2992">
-              <caret line="176" column="107" selection-start-line="176" selection-start-column="107" selection-end-line="176" selection-end-column="107" />
+            <state relative-caret-position="6">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,13 +24,112 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ControllerEditBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="162">
+              <caret line="68" column="62" lean-forward="true" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
               <folding>
-                <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ControllerBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/ModelHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/JavaDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/ModelBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="175" column="204" selection-start-line="175" selection-start-column="204" selection-end-line="175" selection-end-column="204" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ControllerHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/ViewAddBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-572">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3131#3132#0" expanded="true" />
+                <element signature="e#3170#3171#0" expanded="true" />
+                <element signature="e#3201#3202#0" expanded="true" />
+                <element signature="e#3238#3239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/ViewEditBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/View/ViewBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,6 +144,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tfStatus</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>lBook</replace>
+      <replace>tfId</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -148,10 +160,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MVC/MVC_Home.java" />
-        <option value="$PROJECT_DIR$/src/Model/JavaDatabase.java" />
         <option value="$PROJECT_DIR$/src/Controller/ControllerHome.java" />
         <option value="$PROJECT_DIR$/src/MVC/MVC_Landing.java" />
-        <option value="$PROJECT_DIR$/src/MVC/MVC_Planner.java" />
         <option value="$PROJECT_DIR$/src/Model/ModelHome.java" />
         <option value="$PROJECT_DIR$/src/MVC/MVC_AddPlanner.java" />
         <option value="$PROJECT_DIR$/src/MVC/MVC_EditPlanner.java" />
@@ -162,22 +172,33 @@
         <option value="$PROJECT_DIR$/src/Controller/ControllerLanding.java" />
         <option value="$PROJECT_DIR$/src/Controller/ControllerPlanner.java" />
         <option value="$PROJECT_DIR$/src/Controller/ControllerAddPlanner.java" />
-        <option value="$PROJECT_DIR$/src/View/ViewLanding.java" />
         <option value="$PROJECT_DIR$/src/Controller/ControllerEditPlanner.java" />
-        <option value="$PROJECT_DIR$/src/View/ViewHome.java" />
         <option value="$PROJECT_DIR$/src/View/ViewLogout.java" />
         <option value="$PROJECT_DIR$/src/View/ViewPlanner.java" />
         <option value="$PROJECT_DIR$/src/View/ViewAddPlanner.java" />
         <option value="$PROJECT_DIR$/src/View/ViewEditPlanner.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Model/ModelPlanner.java" />
+        <option value="$PROJECT_DIR$/src/View/ViewHome.java" />
+        <option value="$PROJECT_DIR$/src/View/ViewLanding.java" />
+        <option value="$PROJECT_DIR$/src/MVC/MVC_Planner.java" />
+        <option value="$PROJECT_DIR$/src/MVC/MVC_EditBook.java" />
+        <option value="$PROJECT_DIR$/src/Model/JavaDatabase.java" />
+        <option value="$PROJECT_DIR$/src/Controller/ControllerBook.java" />
+        <option value="$PROJECT_DIR$/src/View/ViewAddBook.java" />
+        <option value="$PROJECT_DIR$/src/View/ViewEditBook.java" />
+        <option value="$PROJECT_DIR$/src/View/ViewBook.java" />
+        <option value="$PROJECT_DIR$/src/Controller/ControllerAddBook.java" />
+        <option value="$PROJECT_DIR$/src/Model/ModelBook.java" />
+        <option value="$PROJECT_DIR$/src/Controller/ControllerEditBook.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1020" />
+    <option name="y" value="-11" />
+    <option name="width" value="983" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -231,12 +252,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589869101541" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589978961141" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -280,10 +301,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="680" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20573355" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20890689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,7 +313,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18430656" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1793961" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,114 +334,14 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Assets.java" />
-    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerAddCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/JavaDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/ModelAddCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewAddCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_AddCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerAddCategory.java" />
+    <entry file="file://$PROJECT_DIR$/src/Model/ModelAddCategory.java" />
+    <entry file="file://$PROJECT_DIR$/src/View/ViewAddCategory.java" />
+    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_AddCategory.java" />
     <entry file="file://$PROJECT_DIR$/src/Controller/ControllerLogout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/ModelHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerLanding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewLanding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -437,49 +358,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewAddPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewEditPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Planner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Logout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="119">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -489,7 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Landing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="85">
           <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -499,58 +380,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_EditPlanner.java">
+    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_AddBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_AddPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerAddPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerEditPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/ModelPlanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2992">
-          <caret line="176" column="107" selection-start-line="176" selection-start-column="107" selection-end-line="176" selection-end-column="107" />
+        <state relative-caret-position="136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -559,11 +400,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="51">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding>
             <element signature="e#78#79#0" expanded="true" />
             <element signature="e#128#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ViewHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ViewLanding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MVC/MVC_EditBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerLanding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ViewEditBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ViewBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ViewAddBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3131#3132#0" expanded="true" />
+            <element signature="e#3170#3171#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#3238#3239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/JavaDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/ModelHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerAddBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/ModelBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="175" column="204" selection-start-line="175" selection-start-column="204" selection-end-line="175" selection-end-column="204" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ControllerEditBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="68" column="62" lean-forward="true" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

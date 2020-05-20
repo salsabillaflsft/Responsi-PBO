@@ -5,11 +5,11 @@ import java.awt.*;
 
 public class ViewLanding extends JFrame{
     JLabel title = new JLabel("YOUR");
-    JLabel title2 = new JLabel("PLANNER");
+    JLabel title2 = new JLabel("LIBRARY");
 
-    public JButton btnSee = new JButton("Lihat Planner");
-    public JButton btnAdd = new JButton("Tambah Planner");
-    public JButton btnEdit = new JButton("Edit Planner");
+    public JButton btnSee = new JButton("Lihat Daftar Pinjam");
+    public JButton btnAdd = new JButton("Tambah Pinjaman");
+    public JButton btnEdit = new JButton("Edit Pinjaman");
     public JButton btnOut = new JButton("Log Out");
 
     Color red2 = new Color(210, 55, 58);
@@ -42,11 +42,11 @@ public class ViewLanding extends JFrame{
         setBounds(400,50,1200,700);
 
         add(title);
-        title.setBounds(535,50,800,50);
+        title.setBounds(533,50,800,50);
         title.setFont(font2);
         title.setForeground(blue);
         add(title2);
-        title2.setBounds(485,110,500,50);
+        title2.setBounds(505,110,500,50);
         title2.setFont(font2);
         title2.setForeground(blue);
 

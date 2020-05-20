@@ -1,9 +1,9 @@
 package Controller;
 
-import MVC.MVC_AddPlanner;
-import MVC.MVC_EditPlanner;
+import MVC.MVC_AddBook;
+import MVC.MVC_EditBook;
 import MVC.MVC_Logout;
-import MVC.MVC_Planner;
+import MVC.MVC_Book;
 import View.ViewLanding;
 
 import java.awt.event.ActionEvent;
@@ -18,21 +18,21 @@ public class ControllerLanding {
             @Override
             public void actionPerformed(ActionEvent e) {
                 viewLanding.setVisible(false);
-                MVC_Planner mvc_planner = new MVC_Planner();
+                MVC_Book mvc_book = new MVC_Book();
             }
         });
         viewLanding.btnAdd.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 viewLanding.setVisible(false);
-                MVC_AddPlanner mvc_addPlanner = new MVC_AddPlanner();
+                MVC_AddBook mvc_addBook = new MVC_AddBook();
             }
         });
         viewLanding.btnEdit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 viewLanding.setVisible(false);
-                MVC_EditPlanner mvc_editPlanner = new MVC_EditPlanner();
+                MVC_EditBook mvc_editBook = new MVC_EditBook();
             }
         });
         viewLanding.btnOut.addActionListener(new ActionListener() {

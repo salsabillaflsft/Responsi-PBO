@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ViewHome extends JFrame {
-    JLabel title = new JLabel("PLANNER");
+    JLabel title = new JLabel("PERPUSTAKAAN");
 
     JLabel lUser = new JLabel("Username : ");
     JTextField tfUser = new JTextField();
@@ -18,7 +18,7 @@ public class ViewHome extends JFrame {
     Color blue = new Color(80,121,154);
     Color blue2 = new Color(66,58,100);
 
-    ImageIcon img = new ImageIcon("src\\Assets\\home.jpg");
+    ImageIcon img = new ImageIcon("src\\Assets\\book.jpg");
     JLabel logo = new JLabel(img);
 
     Font font = new Font("Garamond", Font.PLAIN, 25);
@@ -31,11 +31,11 @@ public class ViewHome extends JFrame {
         setBounds(400, 50, 1200, 700);
 
         add(title);
-        title.setBounds(470, 50, 500, 50);
-        title.setFont(new Font("Garamond", Font.BOLD, 60));
+        title.setBounds(420, 50, 500, 50);
+        title.setFont(new Font("Garamond", Font.BOLD, 50));
 
         add(logo);
-        logo.setBounds(100, 100, 728, 521);
+        logo.setBounds(300, 150, 454, 303);
 
         add(lUser);
         lUser.setBounds(850, 150, 200, 25);

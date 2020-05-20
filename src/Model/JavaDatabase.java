@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 
 public class JavaDatabase {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/planner";
+    static final String DB_URL = "jdbc:mysql://localhost/buku";
     static final String USER = "root";
     static final String PASS = "";
 

@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
-public class ViewPlanner extends JFrame {
+public class ViewBook extends JFrame {
     JLabel title = new JLabel("YOUR PLANNER");
     JLabel title2 = new JLabel("YOUR PLANNER");
 
@@ -13,7 +13,7 @@ public class ViewPlanner extends JFrame {
     public JTable tabel;
     DefaultTableModel tableModel;
     JScrollPane jScrollPane;
-    public Object[] namaKolom = {"No","Plan","Category","Day","Time","Status"};
+    public Object[] namaKolom = {"No","ID Mahasiswa","Nama Mahasiswa","Nama Buku","ID Buku","Kategori"};
 
     Color blue = new Color(80,121,154);
     Color blue2 = new Color(66,58,100);
@@ -27,7 +27,7 @@ public class ViewPlanner extends JFrame {
 
     Font font = new Font("Garamond",Font.ITALIC,20);
 
-    public ViewPlanner(){
+    public ViewBook(){
         tableModel = new DefaultTableModel(namaKolom,0);
         tabel = new JTable(tableModel);
         jScrollPane = new JScrollPane(tabel);

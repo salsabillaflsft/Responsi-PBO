@@ -6,13 +6,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
-public class ModelPlanner {
+public class ModelBook {
     Statement statement;
 
     public int getBanyakData(){
         try {
             int jmlData = 0;
-            String query = "SELECT * FROM ((`planner` JOIN `kategori` ON `planner`.`kategori` = `kategori`.`kategori`)JOIN `waktu` ON `planner`.`id_hari` = `waktu`.`id_hari`) ";
+            String query = "SELECT * FROM ((`pinjam` JOIN `kategori` ON `pinjam`.`kategori` = `kategori`.`kategori`)JOIN `mahasiswa` ON `pinjam`.`id_mahasiswa` = `mahasiswa`.`id_mahasiswa`)";
             statement = JavaDatabase.getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(query);
             while(resultSet.next()){
@@ -25,20 +25,20 @@ public class ModelPlanner {
             return 0;
         }
     }
-    public String[][] readPlanner(){
+    public String[][] readBook(){
         try {
             int jmlData = 0;
             String data[][] = new String[getBanyakData()][9];
-            String query = "SELECT * FROM ((`planner` JOIN `kategori` ON `planner`.`kategori` = `kategori`.`kategori`)JOIN `waktu` ON `planner`.`id_hari` = `waktu`.`id_hari`) ";
+            String query = "SELECT * FROM ((`pinjam` JOIN `kategori` ON `pinjam`.`kategori` = `kategori`.`kategori`)JOIN `mahasiswa` ON `pinjam`.`id_mahasiswa` = `mahasiswa`.`id_mahasiswa`)";
             ResultSet resultSet = statement.executeQuery(query);
             int i = 1;
             while (resultSet.next()){
-                data[jmlData][0] = resultSet.getString("id_planner");
-                data[jmlData][1] = resultSet.getString("nama");
-                data[jmlData][2] = resultSet.getString("kategori");
-                data[jmlData][3] = resultSet.getString("hari");
-                data[jmlData][4] = resultSet.getString("waktu");
-                data[jmlData][5] = resultSet.getString("status");
+                data[jmlData][0] = resultSet.getString("id_pinjam");
+                data[jmlData][1] = resultSet.getString("id_mahasiswa");
+                data[jmlData][2] = resultSet.getString("nama");
+                data[jmlData][3] = resultSet.getString("nama_buku");
+                data[jmlData][4] = resultSet.getString("id_buku");
+                data[jmlData][5] = resultSet.getString("kategori");
                 jmlData++;
                 i++;
             }
@@ -49,9 +49,9 @@ public class ModelPlanner {
             return null;
         }
     }
-    public void deletePlanner(String id_planner){
+    public void deleteBook(String id_pinjam){
         try {
-            String query = "DELETE FROM `planner` WHERE `id_planner` = '" + id_planner + "'";
+            String query = "DELETE FROM `pinjam` WHERE `id_pinjam` = '" + id_pinjam + "'";
             statement = JavaDatabase.getConnection().createStatement();
             statement.executeUpdate(query);
             JOptionPane.showMessageDialog(null, "Data Berhasil Dihapus");
@@ -88,13 +88,13 @@ public class ModelPlanner {
             return null;
         }
     }
-    public ArrayList<String> readNamaPlanner(){
+    public ArrayList<String> readNamaBuku(){
         try {
             ArrayList<String> data = new ArrayList<>();
-            String query = "SELECT * FROM `planner`";
+            String query = "SELECT * FROM `pinjam`";
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()){
-                data.add(resultSet.getString("nama"));
+                data.add(resultSet.getString("nama_buku"));
             }
             return data;
         } catch (SQLException e) {
@@ -120,7 +120,7 @@ public class ModelPlanner {
     public int getBanyakData3(){
         try {
             int jmlData = 0;
-            String query = "SELECT * FROM `waktu`";
+            String query = "SELECT * FROM `mahasiswa`";
             statement = JavaDatabase.getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(query);
             while(resultSet.next()){
@@ -131,16 +131,15 @@ public class ModelPlanner {
             return 0;
         }
     }
-    public String[][] readWaktu(){
+    public String[][] readMhs(){
         try {
             int jmlData = 0;
-            String data[][] = new String[getBanyakData3()][3];
-            String query = "SELECT * FROM `waktu`";
+            String data[][] = new String[getBanyakData3()][2];
+            String query = "SELECT * FROM `mahasiswa`";
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()){
-                data[jmlData][0] = resultSet.getString("id_hari");
-                data[jmlData][1] = resultSet.getString("hari");
-                data[jmlData][2] = resultSet.getString("waktu");
+                data[jmlData][0] = resultSet.getString("id_mahasiswa");
+                data[jmlData][1] = resultSet.getString("nama");
                 jmlData++;
             }
             return data;
@@ -149,22 +148,22 @@ public class ModelPlanner {
         }
     }
 
-    public ArrayList<String> readNamaHari(){
+    public ArrayList<String> readNamaMhs(){
         try {
             ArrayList<String> data = new ArrayList<>();
-            String query = "SELECT * FROM `waktu`";
+            String query = "SELECT * FROM `mahasiswa`";
             ResultSet resultSet = statement.executeQuery(query);
             while (resultSet.next()){
-                data.add(resultSet.getString("id_hari"));
+                data.add(resultSet.getString("id_mahasiswa"));
             }
             return data;
         } catch (SQLException e) {
             return null;
         }
     }
-    public void insertPlanner(String nama, String kategori, String waktu, String status){
+    public void insertBook(String id_mahasiswa , String kategori, String id_buku   , String  nama_buku){
         try{
-            String query = "INSERT INTO `planner` (`id_planner`, `nama`, `kategori`,`id_hari`,`status` ) VALUES ('0','"+nama+"','"+kategori+"','"+waktu+"','"+status+"')";
+            String query = "INSERT INTO `pinjam` (`id_pinjam`, `id_mahasiswa`, `kategori`,`id_buku`,`nama_buku` ) VALUES ('0','"+id_mahasiswa+"','"+kategori+"','"+id_buku+"','"+nama_buku+"')";
             statement = JavaDatabase.getConnection().createStatement();
             statement.executeUpdate(query);
             JOptionPane.showMessageDialog(null, "Data Berhasil Dimasukkan");
@@ -172,9 +171,9 @@ public class ModelPlanner {
             JOptionPane.showMessageDialog(null, e.getMessage());
         }
     }
-    public void updatePlanner(String nama, String kategori, String waktu, String status){
+    public void updateBook(String id_mahasiswa, String kategori, String id_buku, String nama_buku){
         try {
-            String query = "UPDATE `planner` SET `nama` = '"+nama+"',`kategori`='" + kategori + "',`id_hari`='" +waktu +"', `status`='" +status +"'WHERE `nama` = '" + nama + "'";
+            String query = "UPDATE `pinjam` SET `id_mahasiswa` = '"+id_mahasiswa+"',`kategori`='" + kategori + "',`id_buku`='" +id_buku +"', `nama_buku`='" +nama_buku +"'WHERE `nama_buku` = '" + nama_buku + "'";
             statement = JavaDatabase.getConnection().createStatement();
             statement.executeUpdate(query);
             JOptionPane.showMessageDialog(null, "Data Berhasil Diperbarui");
